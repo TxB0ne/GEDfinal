@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8875434033979281724}
   - component: {fileID: 4993167469548636348}
   - component: {fileID: 7671190895431979450}
+  - component: {fileID: -410074872184260628}
   m_Layer: 0
   m_Name: Zap
   m_TagString: Untagged
@@ -108,3 +109,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-410074872184260628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73383800885127140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b882739b2598cf14aa8e0638af48acba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

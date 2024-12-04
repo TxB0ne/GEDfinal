@@ -4,16 +4,26 @@ using UnityEngine;
 
 public class DuckBehaviour : MonoBehaviour
 {
+    public GameObject Duck;
+
     
-    
+
     void Start()
     {
-        
+
     }
 
-   
-    void Update()
+
+    void FixedUpdate()
     {
-        
+        Spawn();
     }
+
+    void Spawn()
+    {
+        var Ducks = Instantiate(Duck);
+        Destroy(Ducks, 5.0f);
+    }
+
+    
 }
