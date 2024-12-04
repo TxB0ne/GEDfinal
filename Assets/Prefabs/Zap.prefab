@@ -121,3 +121,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b882739b2598cf14aa8e0638af48acba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Duck: {fileID: 1292491840863044650, guid: 5699c22179c169f4c9258b31eb4d27fe, type: 3}

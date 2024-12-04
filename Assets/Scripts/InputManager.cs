@@ -25,6 +25,7 @@ public class InputManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.A))
         {
             var bullet = Instantiate(Zap);
+            
             Debug.Log("Zap");
 
             Destroy(bullet, 3.0f);

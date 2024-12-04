@@ -22,7 +22,7 @@ public class DuckBehaviour : MonoBehaviour
     void Spawn()
     {
         var Ducks = Instantiate(Duck);
-        Destroy(Ducks, 5.0f);
+        Destroy(Ducks, 3.0f);
     }
 
     
